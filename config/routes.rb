@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     :registrations => "registrations"
   }
   
-  resources :users, only: [:show]
+  resources :users, only: [:index,:show]
   
   root 'static_pages#home'
   match '/help', to: 'static_pages#help', via: 'get'

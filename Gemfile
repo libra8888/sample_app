@@ -65,3 +65,6 @@ gem 'sprockets-rails', '2.3.2'
 gem 'jquery-rails'
 
 gem 'devise'
+gem 'faker'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
